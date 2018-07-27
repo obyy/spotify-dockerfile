@@ -22,7 +22,7 @@ RUN 	apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0DF731E45
 
 ENV PULSE_SERVER /run/pulse/native
 
-COPY . /
+COPY entrypoint.sh /
 
 VOLUME /spotify
 
