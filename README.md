@@ -1,5 +1,7 @@
 # Spotify
-lancer une instanc de spotify : 
+it's an automated build for hub.docker.com
+You must use pulseaudio, and container need to start after pusleaudio.
+Start spotify-client : 
 
 ```console
 docker run -d  \
