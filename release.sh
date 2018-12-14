@@ -35,9 +35,11 @@ if [[ "$SPOTIFY_DEB" != "$SPOTIFY_DEB_OLD" ]]; then
   git commit -am "Update to version $SPOTIFY_VERSION"
   git tag "$SPOTIFY_VERSION"
   git push --tags
+
+  # send push
+  /usr/bin/slack-push.sh "spotify updating from $SPOTIFY_DEB_OLD to $SPOTIFY_DEB "
 else
-  echo "Current version : $SPOTIFY_DEB"
-  echo "Dockerfile Version : $SPOTIFY_DEB_OLD"
+  echo "Current version from repository (stable): $SPOTIFY_DEB"
   echo "pas de changement de version"
  exit 0
 fi
