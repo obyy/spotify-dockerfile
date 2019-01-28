@@ -3,7 +3,7 @@
 
 #update dockerfile avec la bonne version pour spotify.
 # location of dockerfile need updated
-DOCKERFILE="/home/docky/dockerfile/spotify/Dockerfile"
+DOCKERFILE="/home/docker/dockerfile/spotify/Dockerfile"
 cd $(dirname "$DOCKERFILE")
 
 #URL repository officiel de Spotify
