@@ -2,8 +2,8 @@ FROM ubuntu:bionic
 
 LABEL maintainer "Obyy https://github.com/obyy/spotify-dockerfile"
 
-ARG SPOTIFY_VERSION="1.0.96.181"
-ARG SPOTIFY_DEB="1:1.0.96.181.gf6bc1b6b-12"
+ARG SPOTIFY_VERSION="1.0.98.78"
+ARG SPOTIFY_DEB="1:1.0.98.78.gb45d2a6b-10"
 ARG DEBIAN_FRONTEND="noninteractive"
 
 
