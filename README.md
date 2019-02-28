@@ -3,7 +3,7 @@ it's an automated build for hub.docker.com
 You must use pulseaudio, and container need to start after pusleaudio.
 Start spotify-client : 
 
-```console
+```shell
 docker run -d  \
   -h XBMC-docker \
   --user $(id -u ${USER}) \
